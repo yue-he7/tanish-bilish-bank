@@ -1,0 +1,133 @@
+@media (max-width:1200px) {
+    .couse__right_box {
+        justify-content: center;
+    }
+
+    .course__right_title {
+        text-align: center;
+    }
+}
+
+@media (max-width:992px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .header__content_inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__content_title {
+        text-align: center;
+    }
+
+    .course__left img {
+        width: 100%;
+    }
+
+    .course {
+        align-items: center;
+    }
+
+    .best {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .best__left img {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .offer__inner {
+        flex-wrap: wrap;
+    }
+
+    .application__inner {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:576px) {
+    .header__content_inner img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .header__content_inner{
+        height: 550px;
+    }
+
+    .nav__menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__content_links {
+        position: static;
+        transform: translateX(0);
+        flex-wrap: wrap;
+        
+    }
+
+    .course {
+        text-align: center;
+        gap: 60px;
+        flex-direction: column-reverse;
+    }
+    .course__left img{
+        width: 70%;
+    }
+    
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .nav__list_link:not(:last-child) {
+        margin-right: unset;
+    }
+    
+    .nav__list_link:last-child {
+        margin-right: unset;
+    }
+    
+    .best {
+        padding: 10px 0;
+    }
+    
+    .offer__card {
+        flex-direction: column;
+        height: unset;
+    }
+    
+    .offer__card_desc {
+        align-items: center;
+    }
+    
+    .offer__card_img {
+        margin-top: 25px;
+    }
+    
+    .application__inner_left {
+        text-align: center;
+    }
+    
+    .application__inner_left img {
+        width: 250px;
+    }
+    
+    .application__inner_right-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .application__inner_right-item:last-child {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+}
